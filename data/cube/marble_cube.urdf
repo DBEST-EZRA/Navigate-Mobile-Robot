@@ -1,0 +1,12 @@
+<robot name="white_cube">
+  <link name="base">
+    <visual>
+      <geometry>
+        <mesh filename="marble_cube.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+</robot>
